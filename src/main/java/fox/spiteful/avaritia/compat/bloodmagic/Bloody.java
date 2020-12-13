@@ -16,11 +16,11 @@ public class Bloody {
         ItemStack cluster = new ItemStack(crystal, 1, 0);
         Grinder.catalyst.getInput().add(cluster);
 
-        LudicrousItems.armok_orb = new ItemOrbArmok();
-        GameRegistry.registerItem(LudicrousItems.armok_orb, "Orb_Armok");
+        LudicrousItems.armok_blood_orb = new ItemOrbArmok();
+        GameRegistry.registerItem(LudicrousItems.armok_blood_orb, "Blood_Orb_Armok");
 
-        Item transorb = Compat.getItem("AWWayofTime", "transcendentBloodOrb");
-        ExtremeCraftingManager.getInstance().addRecipe(new ItemStack(LudicrousItems.armok_orb, 1), new Object[]{
+        //Item transorb = Compat.getItem("AWWayofTime", "transcendentBloodOrb");
+        /*ExtremeCraftingManager.getInstance().addRecipe(new ItemStack(LudicrousItems.armok_blood_orb, 1), new Object[]{
                 "   III   ",
                 "  IOIOI  ",
                 "  IIXII  ",
@@ -32,7 +32,7 @@ public class Bloody {
                 'X', new ItemStack(LudicrousItems.resource, 1, 5),
                 'N', new ItemStack(LudicrousItems.resource, 1, 4),
                 'O', new ItemStack(transorb)
-        });
+        });*/
     }
 
 }

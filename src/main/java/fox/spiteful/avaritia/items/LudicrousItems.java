@@ -64,7 +64,7 @@ public class LudicrousItems {
     public static Item infinity_shoes;
 
     public static Item akashic_record;
-    public static Item armok_orb;
+    public static Item armok_blood_orb;
     public static Item combs;
     public static Item beesource;
     public static Item bigPearl;

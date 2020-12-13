@@ -48,7 +48,7 @@ public class AchievementTrigger {
             else if(event.crafting.getItem() == LudicrousItems.singularity){
                 event.player.addStat(Achievements.singularity, 1);
             }
-            else if(Compat.blood && event.crafting.getItem() == LudicrousItems.armok_orb){
+            else if(Compat.blood && event.crafting.getItem() == LudicrousItems.armok_blood_orb){
                 event.player.addStat(Achievements.armok, 1);
             }
         }

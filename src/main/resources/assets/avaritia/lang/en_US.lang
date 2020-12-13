@@ -26,7 +26,7 @@ item.infinity_axe.name=Nature's Ruin
 item.infinity_bow.name=Longbow of the Heavens
 item.skullfire_sword.name=Skullfire Sword
 item.akashic_record.name=Akashic Records
-item.orb_armok.name=Blood Orb of Armok
+item.blood_orb_armok.name=Blood Orb of Armok
 item.avaritia_stew.name=Ultimate Stew
 item.avaritia_meatballs.name=Cosmic Meatballs
 item.avaritia_endest_pearl.name=Endest Pearl
@@ -63,7 +63,7 @@ tile.alfheim_deadrock3.name=Cracked Deadrock Brick
 tile.alfheim_deadrock4.name=Chiselled Deadrock
 #
 # Tooltips
-tooltip.armok.desc=Stores unlimited Life Essence while held
+tooltip.armok.desc=Creative Only. Sets Life Essence to 1B while held
 tooltip.crystal_matrix_ingot.desc=This isn't even its final form.
 tooltip.neutron_pile.desc=Try not to think about it.
 tooltip.neutron_nugget.desc=About 35.6 million metric tons.

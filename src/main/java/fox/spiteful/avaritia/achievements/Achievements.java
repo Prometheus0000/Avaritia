@@ -39,7 +39,7 @@ public class Achievements {
         dire_uncrafting = new LudicrousAchievement("dire_uncrafting", -1, 3, new ItemStack(Items.diamond_pickaxe), dire_crafting);
 
         if(Compat.blood)
-            armok = new LudicrousAchievement("armok", 2, -5, LudicrousItems.armok_orb, infinity);
+            armok = new LudicrousAchievement("armok", 2, -5, LudicrousItems.armok_blood_orb, infinity);
 
         page = new AchievementPage("Avaritia", LudicrousAchievement.achievements.toArray(new Achievement[LudicrousAchievement.achievements.size()]));
         AchievementPage.registerAchievementPage(page);

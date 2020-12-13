@@ -21,8 +21,8 @@ public class ItemOrbArmok extends Item implements IBloodOrb, IBindable {
 
     public ItemOrbArmok(){
         setMaxStackSize(1);
-        this.setUnlocalizedName("orb_armok");
-        this.setTextureName("avaritia:orb_armok");
+        this.setUnlocalizedName("blood_orb_armok");
+        this.setTextureName("avaritia:blood_orb_armok");
         setCreativeTab(Avaritia.tab);
         AltarRecipeRegistry.registerAltarOrbRecipe(new ItemStack(this), 1, 140);
     }
